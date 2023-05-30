@@ -51,4 +51,3 @@ Extracting relevant features from the preprocessed audio data:
 
 By incorporating these audio processing techniques and using a CNN model for speech emotion recognition, we can effectively extract meaningful features and train a model to accurately classify emotions in speech.
 
-
