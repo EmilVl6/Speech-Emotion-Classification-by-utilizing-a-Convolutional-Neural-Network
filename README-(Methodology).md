@@ -7,12 +7,23 @@ Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional S
 
 **Preprocessing the Audio Files:**
   - Loading the audio files from the RAVDESS dataset.
-  - Applying necessary preprocessing steps such as resampling and normalization to ensure consistency across the data.
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/1879b67b-0b90-4d1c-8c3a-50ee49b646b7)
+  - Audio Files Plotted  
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/1d1c161d-d538-4362-81b0-5680dcf722bb)
+  - Applying necessary preprocessing steps such as normalization to ensure consistency across the data. 
+  
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/3c28b10d-d06d-4dcb-b9b4-9c77f5b00793)
+    
   - Performing Fast Fourier Transform (FFT) to analyze the frequency content of the audio samples.
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/ecb2fad9-f0c1-4070-84a0-2375c6218b89)
   - Applying downsampling to reduce the sampling rate of the audio data.
   - Generating spectrograms, filter banks and mel frequency cepstrum coefficient to visualize the frequency content of emotional speech over time.
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/0ec33420-8059-4ea4-b8ed-fb5759af5c68)
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/0c299c98-fc7c-4850-8661-b527b0d70c13)
   - Applying Short Time Fourier Transform (STFT) to capture variations in spectral content over short-time intervals.
   - Utilizing a Mel Filterbank to emphasize important frequency bands for emotional analysis.
+  - Masking and enveloping audio to remove deadspace and redundant data
+    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/29f8b9a9-5820-4e3a-a8d6-98082c6a3b53)
   - Performing feature engineering to extract additional meaningful features.
 
 **Feature Extraction:**
@@ -36,12 +47,14 @@ Extracting relevant features from the preprocessed audio data:
 
 **Model Integration:**
  - Designing the architecture of the CNN for speech emotion recognition.
+   ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/9f98e037-3311-4b9b-8da3-aa97cfb164c8)
  - Including convolutional layers, pooling layers, and fully connected layers in the CNN model.
  - Using the extracted features as input to the CNN for training and inference.
  - Training the CNN model using the labeled audio data from the RAVDESS dataset.
 
 **Evaluation:**
  - Evaluating the performance of the CNN model in terms of emotion recognition accuracy.
+   ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/f6dad2ba-28a7-4b15-bc30-d0c2be69fad5)
  - Measuring the model's ability to classify emotions accurately based on the audio features.
 
 **Further Improvements:**
@@ -49,5 +62,5 @@ Extracting relevant features from the preprocessed audio data:
  - Exploring advanced CNN architectures or additional audio processing techniques to improve the performance of the model.
  - Fine-tuning the CNN model and optimize hyperparameters to achieve better results.
 
-By incorporating these audio processing techniques and using a CNN model for speech emotion recognition, we can effectively extract meaningful features and train a model to accurately classify emotions in speech.
+By incorporating these audio processing techniques and using a CNN model for speech emotion recognition, we can effectively extract meaningful features and train a model to accurately classify emotions in speech. Eventually achieving an accuracy of 0.92 :)
 
