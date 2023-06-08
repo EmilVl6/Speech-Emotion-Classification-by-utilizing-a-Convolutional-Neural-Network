@@ -55,7 +55,7 @@ Extracting relevant features from the preprocessed audio data:
 **Evaluation:**
  - Evaluating the performance of the CNN model in terms of emotion recognition accuracy.
    ![image](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/a5d1b891-ae96-4450-9c59-98326f62c386)
-   acc - 0.96
+   acc - 0.92
  - Measuring the model's ability to classify emotions accurately based on the audio features.
 
 **Further Improvements:**
