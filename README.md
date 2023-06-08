@@ -4,4 +4,4 @@
   - **To *TRY* the model *YOURSELF* use the 'Predict' ipynb file (Make sure to save a Recording.wav file)**
   - Enjoy :)
   
-![Banner-Speech Emotion Recognition](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/ba226289-2190-4098-9ae1-a0813f22635e)
+![Banner-Speech Emotion Recognition](https://github.com/EmilVl6/Speech-Emotion-Classification-by-utilizing-a-Convolutional-Neural-Network/assets/93434155/3461d2d9-b9cc-4bf4-b907-ac5860dd3fc7)
